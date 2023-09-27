@@ -1,6 +1,6 @@
 package herencia;
 
-public class Estudiante extends Persona implements indumentaria{
+public class Estudiante extends Persona implements indumentaria, IPersona{
 
 	@Override
 	public void despedirse() {
@@ -43,6 +43,24 @@ public class Estudiante extends Persona implements indumentaria{
 	@Override
 	public void reservarLibros() {
 		System.out.println("Puedo prestar 5 libros al mes");
+		
+	}
+
+	@Override
+	public void mostrarNombre() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mostrarEdad() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mostrarTelefono() {
+		// TODO Auto-generated method stub
 		
 	}
 	
